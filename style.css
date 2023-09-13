@@ -1,0 +1,113 @@
+#Inline{
+    background-color: #cc97cc;
+    height: 100px;
+    display: inline;
+    padding: 10px;
+}
+#InlineBlock{
+    background-color: mediumpurple;
+    height: 100px;
+    display: inline-block;
+    padding: 10px;
+}
+.Align{
+    border: 4px solid #37af37;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+}
+img{
+    height: 150px;
+    width: 170px;
+    display: block;
+    margin: auto;
+}
+#p1{
+  color: red;
+  text-align: center;
+}
+.Align1{
+    border: 4px solid #37af37;
+    height: 100px;
+    width: 50%;
+    padding: 70px 0px;
+    margin: auto;
+}
+.Align2{
+    border: 4px solid #37af37;
+    height: 100px;
+    width: 50%;
+    line-height: 150px;
+    margin: auto;
+}
+.Align3{
+    border: 4px solid #37af37;
+    height: 100px;
+    width: 50%;
+    position: relative;
+}
+.Sub-div{
+    height: 100px;
+    width:150px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    color: darkblue;
+}
+
+div1 p,i{
+  background-color: lightskyblue;
+}
+
+div2 > p{
+  background-color: palevioletred;
+}
+
+div3 + p{
+  background-color: plum;
+}
+
+div4 ~ p{
+  background-color: mediumaquamarine;
+}
+
+a{
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: purple;
+    background-color:plum;
+    padding: 20px;
+}
+a:link{
+    color: palevioletred;
+    opacity: 0.8;
+}
+a:visited{
+    color: rebeccapurple;
+}
+a:hover{
+   opacity: 1;
+}
+a:active{
+  background-color: #e293ad;  
+}
+.text{
+    margin-top: 10px;
+    height: 300px;
+    width: 250px;
+    border: 3px solid #79cafc;
+}
+div.text:hover{
+    border: 3px dotted palevioletred;
+}
+div.text p:first-child{
+    color: #2ed42e;
+}
