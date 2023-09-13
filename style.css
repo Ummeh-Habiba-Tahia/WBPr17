@@ -111,3 +111,6 @@ div.text:hover{
 div.text p:first-child{
     color: #2ed42e;
 }
+q:lang(hi){
+    quotes: "~" "~";
+}
